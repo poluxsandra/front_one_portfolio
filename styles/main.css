@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Inria+Sans:wght@400;700&display=swap');
+
+.body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	height: 100vh;
+	width: 100vw;
+	font-size: 16px;
+	background-color: #000;
+	color: #f5f5f5;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content_presetation {
+	width: 42%;
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.content_presetation_title {
+	font-size: 2rem;
+	font-family: 'Cantora One', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.content_presetation_title_highlight {
+	color: #ff204e;
+}
+
+.content_presetation_text {
+	font-size: 1.5rem;
+	font-family: 'Inria Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.container__content_presetation_links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content_presetation_links {
+	background-color: #ff204e;
+	color: #000;
+	width: 35%;
+	font-size: 1.5rem;
+	padding: 20px 0;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	font-family: 'Inria Sans', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+.content_presetation_image {
+	height: 75%;
+	width: 42%;
+	border-radius: 15px;
+}
